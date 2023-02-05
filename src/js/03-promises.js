@@ -15,7 +15,6 @@ function onFormSubmit(event) {
   // let delayValue = delay.value
   // let stepValue = step.value
   // let amountValue = amount.value
-
   /////////////////3
   let { delay, step, amount } = Object.fromEntries(new FormData(event.target));
   delay = Number(delay);
